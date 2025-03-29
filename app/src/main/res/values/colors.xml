@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="oldal_hatter">#DBDEA7</color>
+    <color name="gomb_sarga">#AB9829</color>
+    <color name="gomb_piros">#77E01818</color>
+    <color name="inaktiv_hatter">#A1CAC6C6</color>
+</resources>

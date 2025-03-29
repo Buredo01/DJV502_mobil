@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_booking"
+        android:title="@string/foglalas" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profil" />
+    <item
+        android:id="@+id/menu_appointments"
+        android:title="@string/idopontjaim" />
+</menu>

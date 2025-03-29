@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Massage Booking App</string>
+    <string name="email">Email</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="jelszo_megerosites">Jelszó megerősítés</string>
+    <string name="telefon">Telefon szám</string>
+    <string name="felhasznalo_nev">Felhasználó név</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="megse">Mégse</string>
+    <string name="app_label">Massage Booking App</string>
+    <string name="menu">Menü</string>
+    <string name="foglalas">Időpont Foglalás</string>
+    <string name="profil">Profil</string>
+    <string name="idopontjaim">Időpontjaim</string>
+    <string name="vissza">Vissza</string>
+    <string name="bemutatkozo_szoveg">Üdvözöljük a Masszázs Foglalási Alkalmazásban! Ezen az oldalon könnyedén választhat a szabad időpontok közül, és lefoglalhatja a masszázst a rendelkezésre álló időpontok alapján. Kérjük, válasszon egy szabad időpontot a naptárból, és foglalja le a kívánt masszázst.</string>
+    <string name="idopontok">Időpontok</string>
+    <string name="adatok_modositasa">Adatok módosítása</string>
+</resources>
