@@ -69,7 +69,7 @@ public class BookingActivity extends AppCompatActivity {
         });
 
         db = FirebaseFirestore.getInstance();
-        mAuth = FirebaseAuth.getInstance();
+
         calendarContainer = findViewById(R.id.calendarContainer);
 
         // Engedély kérése
@@ -100,7 +100,7 @@ public class BookingActivity extends AppCompatActivity {
 
 
         if (today == Calendar.SUNDAY) {
-            calendar.add(Calendar.DAY_OF_MONTH, -6);
+            calendar.add(Calendar.DAY_OF_MONTH, 1);
         } else if (today == Calendar.SATURDAY) {
             calendar.add(Calendar.DAY_OF_MONTH, 2);
         } else {
@@ -331,5 +331,6 @@ public class BookingActivity extends AppCompatActivity {
 
     public void backtoMain(View view) {
         startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 }

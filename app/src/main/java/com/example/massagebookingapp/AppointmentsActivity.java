@@ -251,5 +251,6 @@ public class AppointmentsActivity extends AppCompatActivity {
 
     public void backtoMain(View view) {
         startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 }
