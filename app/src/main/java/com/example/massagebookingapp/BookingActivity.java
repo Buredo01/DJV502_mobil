@@ -69,7 +69,7 @@ public class BookingActivity extends AppCompatActivity {
         });
 
         db = FirebaseFirestore.getInstance();
-
+        mAuth = FirebaseAuth.getInstance();
         calendarContainer = findViewById(R.id.calendarContainer);
 
         // Engedély kérése
